@@ -12,7 +12,7 @@ module.exports = (robot) ->
   robot.hear /もち/, (msg) ->
     msg.send "ただのおもちくそ"
 
-  robot.hear /ぬるぽ/, (msg) ->
+  robot.hear /ぬるぬる/, (msg) ->
     msg.send """
 ```
    Λ＿Λ     ＼＼
